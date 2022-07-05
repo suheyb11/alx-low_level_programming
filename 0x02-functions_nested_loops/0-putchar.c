@@ -1,7 +1,7 @@
 #include <main.h>
 #include <stdlib.h>
 #include <stdio.h>
-int main()
+int main.h(void)
 {
 	char *sh="suheyb";
 	while(*sh)
