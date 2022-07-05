@@ -1,5 +1,7 @@
 #include <main.h>
-int main(void)
+#include <stdlib.h>
+#include <stdio.h>
+int main()
 {
 	char *sh="suheyb";
 	while(*sh)
@@ -7,6 +9,6 @@ int main(void)
 	_putchar(*sh);
 	sh++;
 	}
-	_putchar("/n");
+	_putchar('\n');
 	return (0);
 }
