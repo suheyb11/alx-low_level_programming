@@ -1,5 +1,8 @@
-#include <stdlib.h>
-#include <stdio.h>
+#include  "main.h"
+/*
+ * print_alphabet_x10
+ * return
+ */
 void print_alphabet_x10(void)
 {
 	int i;
@@ -8,10 +11,10 @@ void print_alphabet_x10(void)
 	{
 		for(i='a';i<'z';i++)
 		{
-		putchar(i);
+			_putchar(i);
 		}
-	        co++;
-		putchar('\n');
+		co++;
+		_putchar('\n');
 	}
 	
 }
