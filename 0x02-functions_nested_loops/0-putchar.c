@@ -5,9 +5,9 @@ int main(void)
 	int i=0;
 	while(sh[i] != '\0')
 	{
-	putchar( sh[i]);
-	i++;
+		_putchar(sh[i]);
+		i++;
 	}
-	putchar(10);
+	_putchar(10);
 	return (0);
 }
