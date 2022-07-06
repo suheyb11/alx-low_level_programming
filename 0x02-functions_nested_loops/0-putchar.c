@@ -1,13 +1,13 @@
-#include <stdlib.h>
-#include <stdio.h>
+#include "main.h"
 int main(void)
 {
-	char *sh="_putchar";
-	while(*sh)
+	char sh[]="_putchar";
+	int i=0;
+	while(sh[i] != '\0')
 	{
-	putchar(*sh);
-	sh++;
+	putchar( sh[i]);
+	i++;
 	}
-	putchar('\n');
+	putchar(10);
 	return (0);
 }
