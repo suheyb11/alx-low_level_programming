@@ -1,11 +1,16 @@
 #include "main.h"
+/**
+ * main
+ *
+ * return
+ */
 int main(void)
 {
-	char sh[]="_putchar";
+	char s[]="_putchar";
 	int i=0;
-	while(sh[i] != '\0')
+	while(s[i] != '\0')
 	{
-		_putchar(sh[i]);
+		_putchar(s[i]);
 		i++;
 	}
 	_putchar(10);
