@@ -1,12 +1,12 @@
 #include "main.h"
 
 /*
- * more_numbers->more_numbers
+ * more_numbers
  */
 
 void more_numbers(void)
 {
-	int x,y;
+	int x, y;
 
 	for (x = 0; x < 10; x++)
 	{
