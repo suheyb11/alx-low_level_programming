@@ -2,17 +2,16 @@
 
 /**
  * print_numbers - prints numbers from 0 to 9 without using standard functions
- *
- *
  * Return: void
  */
+
 void print_numbers(void)
 {
-	int c = 48;
+	int c;
 
-	while (c < 58)
+	while (c <= 9)
 	{
-		_putchar(c);
+		_putchar(c + '0');
 		c++;
 	}
 	_putchar('\n');
