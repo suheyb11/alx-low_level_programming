@@ -1,6 +1,6 @@
 #include <main.h>
 
-/*
+/**
  * _puts - prints to string
  * @str: apointeto an int that be changed
  *
