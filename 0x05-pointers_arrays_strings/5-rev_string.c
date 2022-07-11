@@ -23,5 +23,5 @@ void rev_string(char *s)
 		s[i] = s[l - 1 - i];
 		s[l - 1 - i] = ch;
 	}
-	_putchar("%s", s);
+	_putchar(s);
 }
