@@ -6,6 +6,7 @@
 void reset_to_98(int *n)
 {
 	printf("n=%d\n", n);
-	*n = 402
+	*n = 402;
+	printf("n=%d\n", n);
 	_putchar('\n');
 }
