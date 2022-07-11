@@ -2,8 +2,8 @@
 
 /**
  * _strlen - length of string
- *@s: is variable that counts
- * return: answer is correct
+ * @s: is variable that counts
+ * Return: answer is correct
  */
 
 int _strlen(char *s)
