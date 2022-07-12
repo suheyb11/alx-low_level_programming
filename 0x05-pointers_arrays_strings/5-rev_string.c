@@ -9,7 +9,7 @@
 void rev_string(char *s)
 {
 	int i, n, n2;
-	char temp;
+	char tmp;
 
 	n = 0;
 
@@ -23,7 +23,7 @@ void rev_string(char *s)
 		tmp = s[i];
 		s[i] = s[n2];
 		s[n2] = tmp;
-		n2 - = 1;
+		n2--;
 	}
 	_putchar('\n');
 }
