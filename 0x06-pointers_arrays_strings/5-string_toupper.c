@@ -2,8 +2,8 @@
 
 /**
  * string_toupper - > is fiuntion tahy
- * @s: is one prameter
- * Return: is correct 
+ * @s: is prameter
+ * Return: is void becouse our data is correct
  */
 char *string_toupper(char *s)
 {
