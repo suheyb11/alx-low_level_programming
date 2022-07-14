@@ -3,20 +3,16 @@
 /**
  * reverse_array - > reverse_array is funtion
  * @a: is one ormn
- * @n: teo prm
- * Return: is void not crct
+ * @n: teo prm another
  */
 void reverse_array(int *a, int n)
 {
-	int g[n];
+	int high, temp, low;
 
-	for (i = 0; i < n; i++)
+	for (low = 0, high = n - 1; low < high; low++, high--)
 	{
-		g[n - 1 - i] = a[i];
-	}
-	
-	for (int i = 0; i < n; i++) 
-	{
-		a[i] = g[i];
-	}
+		temp = a[low];
+		a[low] = a[high];
+		a[high] = temp;
+	}								}
 }
