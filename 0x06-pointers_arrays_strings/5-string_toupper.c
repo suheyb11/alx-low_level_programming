@@ -3,7 +3,11 @@
 /**
  * string_toupper - > is fiuntion tahy
  * @s: is prameter
+<<<<<<< HEAD
  * Return: is void becouse our data is correct
+=======
+ * Return: is void becouse our data is correct 
+>>>>>>> fed78403340ca2e82eecc01ba08a59e77f2c179e
  */
 char *string_toupper(char *s)
 {
