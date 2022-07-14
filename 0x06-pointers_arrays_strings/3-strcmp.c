@@ -1,37 +1,42 @@
 #include "main.h"
-#include <string.h>
 
 /**
- * _strcmp - > is funtion that comp
- * @s1: is one prm
- * @s2: is seconf prm
- * Return: is void not corct
+ * _strcmp - compares two strings
+ *              returns zero if s1 == s2
+ *              returns negative number if s1 < s2
+ *              returns positive number if s1 > s2
+ *
+ *@s1: first parameter
+ *@s2: second parameter
+ *Return: int
  */
+
 int _strcmp(char *s1, char *s2)
 {
-	while( ( s1 != '\0' && s2 != '\0' ) && s1 == s2 )
-	{
-		s1++;
-		s2++;
-	}
-	
-	if(s1 == s2)
-	{
-		return 0; // strings are identical
-	}
+	int i = 0, result = 0;
 
-<<<<<<< HEAD
-	for (i = 0; s1[i] != '\0' && s2[i] != '\0'; i++)
-	
-	if (s1[i] == s2[i])
-=======
-	else
->>>>>>> 2e76daa4d0208473b70a986659c119dfd6b109f5
+	while (1)
 	{
-		return s1 - s2;
+		if (s1[i] == '\0' && s2[i] == '\0')
+			break;
+		else if (s1[i] == '\0')
+		{
+			result = s2[i];
+			break;
+		}
+		else if (s2[i] == '\0')
+		{
+			result = s1[i];
+			break;
+		}
+		else if (s1[i] != s2[i])
+		{
+			result = s1[i] - s2[i];
+			break;
+		}
+		else
+			i++;
+
 	}
-<<<<<<< HEAD
-        return (s1[i] - s2[i]);
-=======
->>>>>>> 2e76daa4d0208473b70a986659c119dfd6b109f5
+	return (result);
 }
